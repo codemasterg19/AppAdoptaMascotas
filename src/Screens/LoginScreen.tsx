@@ -13,7 +13,7 @@ export const LoginScreen = () => {
     };
 
     const handleForgotPassword = () => {
-        // Aquí puedes implementar la lógica para manejar el olvido de contraseña
+  
         console.log('Olvidé mi contraseña');
       };
 

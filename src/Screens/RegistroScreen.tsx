@@ -8,7 +8,7 @@ export const RegistroScreen = () => {
   const [confirmPassword, setConfirmPassword] = useState('');
 
   const handleRegister = () => {
-    // Lógica de registro aquí
+
     console.log('Email:', email);
     console.log('Password:', password);
     console.log('Confirm Password:', confirmPassword);
@@ -58,22 +58,22 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#f5f5f5', // Color de fondo suave
+    backgroundColor: '#f5f5f5', 
   },
   logo: {
     width: 150,
     height: 150,
     marginBottom: 30,
-    borderRadius: 20, // Bordes redondeados para la imagen
+    borderRadius: 20, 
   },
   header: {
     fontSize: 24,
     marginBottom: 30,
-    color: '#333', // Color de texto más oscuro
-    fontWeight: 'bold', // Texto en negrita
+    color: '#333', 
+    fontWeight: 'bold', 
   },
   buttonContainer: {
-    backgroundColor: '#4CAF50', // Color verde para el botón
+    backgroundColor: '#4CAF50', 
     paddingVertical: 15,
     paddingHorizontal: 20,
     borderRadius: 10,
@@ -89,12 +89,12 @@ const styles = StyleSheet.create({
   input: {
     width: '80%',
     height: 40,
-    borderColor: '#ccc', // Color de borde más suave
+    borderColor: '#ccc', 
     borderWidth: 1,
     marginBottom: 15,
     padding: 10,
     borderRadius: 8,
-    backgroundColor: '#fff', // Fondo blanco para el campo de entrada
+    backgroundColor: '#fff', 
   },
 });
 

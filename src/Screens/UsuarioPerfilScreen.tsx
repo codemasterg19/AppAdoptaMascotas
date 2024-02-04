@@ -10,22 +10,18 @@ export const UsuarioPerfilScreen= () => {
   const [address, setAddress] = useState('Dirección');
   const [email, setEmail] = useState('correo@ejemplo.com');
   const [phone, setPhone] = useState('Teléfono');
-  const [questionnaireAnswers, setQuestionnaireAnswers] = useState('');
   const [isEditing, setIsEditing] = useState(false);
 
   const handleProfileImageUpload = () => {
-    // Lógica para cargar la foto de perfil
-    // Puedes usar librerías como React Native Image Picker
+
   };
 
   const handleIdImageUpload = () => {
-    // Lógica para cargar la foto de la cédula
-    // Puedes usar librerías como React Native Image Picker
+
   };
 
   const handleSBImageUpload = () => {
-    // Lógica para cargar la foto de la cédula
-    // Puedes usar librerías como React Native Image Picker
+
   };
   
 
@@ -34,7 +30,7 @@ export const UsuarioPerfilScreen= () => {
   };
 
   const handleSaveInfo = () => {
-    // Lógica para guardar la información
+
     setIsEditing(false);
   };
 
@@ -162,6 +158,7 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     width: '100%',
     marginTop: 10,
+    
   },
   uploadButton: {
     flex: 1,
